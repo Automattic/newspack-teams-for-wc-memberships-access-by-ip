@@ -468,8 +468,8 @@ class Plugin {
 
 		$args = array(
 			// phpcs:ignore -- allow fetching all values.
-			'numberposts' => -1,
-			'post_type'   => 'wc_memberships_team',
+			'posts_per_page' => -1,
+			'post_type'      => 'wc_memberships_team',
 		);
 		if ( ! empty( $team_ids ) ) {
 			$args['post__in'] = $team_ids;
