@@ -153,7 +153,7 @@ class Plugin {
 				if ( ! $team_name ) {
 					return;
 				}
-				echo sprintf( '<div id="%s">%s<div>',
+				echo sprintf( '<div id="%s">%s</div>',
 					'access-by-ip-msg-div',
 					$team_name . __( " has a subscription for unlimited access to Transitions." )
 				);
