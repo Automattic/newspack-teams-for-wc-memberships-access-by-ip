@@ -133,7 +133,7 @@ class Plugin {
 			$restricted_content->query_vars['post__in']
 		);
 
-		// Make this Post public.
+		// Make this Post public, and display the user-faced message.
 		if ( $can_plan_access_this_post ) {
 			add_filter(
 				'wc_memberships_is_post_public',
@@ -147,6 +147,17 @@ class Plugin {
 				10,
 				3
 			);
+
+			$team_name = $team->get_name();
+			add_action( 'wp_body_open', function() use ( $team_name ) {
+				if ( ! $team_name ) {
+					return;
+				}
+				echo sprintf( '<div id="%s">%s</div>',
+					'access-by-ip-msg-div',
+					$team_name . __( " has a subscription for unlimited access to Transitions." )
+				);
+			} );
 		}
 
 		return $post;
