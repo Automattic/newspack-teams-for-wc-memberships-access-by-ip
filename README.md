@@ -2,7 +2,7 @@
 
 This Plugin is an extension for the [Teams for WooCommerce Memberships](https://woocommerce.com/products/teams-woocommerce-memberships/) plugin.
 
-It enables public access to Team Membership's restricted content based on visitor's IP address.
+It enables public access (without a WP user having to log in) to Team Membership's restricted content based on visitor's IP address. Each Team Membership gets to define their IP addresses from which their restricted/premium content will be publicly accessible
 
 ## Usage
 
