@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Newspack Teams for WooCommerce Memberships Access by IP
  * Description: Allows public access to Team Subscription content by IP.
- * Version: 0.1
+ * Version: 1.0.0
  * Text Domain: newspack-teams-for-wc-memberships-access-by-ip
  * Author: Automattic
  * Author URI: https://newspack.blog/

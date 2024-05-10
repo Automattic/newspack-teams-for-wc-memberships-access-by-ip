@@ -214,12 +214,6 @@ class Plugin {
 			return;
 		}
 
-		$teams = $this->get_teams();
-		if ( empty( $teams ) ) {
-			delete_option( self::SETTING_ID );
-			return;
-		}
-
 		$team_ids = [];
 		foreach ( $this->get_teams() as $team ) {
 			$team_ids[] = $team->get_id();
