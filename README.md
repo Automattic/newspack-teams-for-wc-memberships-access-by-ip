@@ -1,3 +1,9 @@
+# Archived
+
+Merged into an internal custom code repository (https://github.com/Automattic/newspack-custom-code/commit/e0667134634458642beb5f73f30c1ab47cc43599).
+
+---
+
 # Newspack Teams for WooCommerce Memberships Access by IP
 
 This Plugin is an extension for the [Teams for WooCommerce Memberships](https://woocommerce.com/products/teams-woocommerce-memberships/) plugin.
